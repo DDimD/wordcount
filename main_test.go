@@ -1,10 +1,11 @@
-package main
+package wordcount
 
 import (
 	"io/ioutil"
 	"os"
 	"strings"
 	"testing"
+
 )
 
 func TestWordcount(t *testing.T) {
